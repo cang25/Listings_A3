@@ -19,8 +19,9 @@ export default function MainNav() {
           </Nav>
         </Container>
       </Navbar>
-      <br />
-      <br />
+      <br/>
+      <br/>
+    
     </>
   );
 }
