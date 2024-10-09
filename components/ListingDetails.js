@@ -14,7 +14,10 @@ export default function ListingDetails(props) {
                 "https://placehold.co/600x400?text=Photo+Not+Available";
             }}
             className="img-fluid w-100"
-            src={listing.images?.picture_url || "https://placehold.co/600x400?text=Photo+Not+Available"}
+            src={
+              listing.images?.picture_url ||
+              "https://placehold.co/600x400?text=Photo+Not+Available"
+            }
             alt="Listing Image"
           />
           <br />
@@ -36,8 +39,6 @@ export default function ListingDetails(props) {
           <strong>Rating:</strong>{" "}
           {listing.review_scores?.review_scores_rating || "N/A"}/100 (
           {listing.number_of_reviews || 0} Reviews)
-          <br />
-          <br />
           <br />
           <br />
         </Col>
