@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 
