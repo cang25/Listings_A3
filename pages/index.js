@@ -1,3 +1,16 @@
+/*********************************************************************************
+*  WEB422 – Assignment 3
+*
+*  I declare that this assignment is my own work in accordance with Seneca's
+*  Academic Integrity Policy:
+* 
+*  https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
+* 
+*  Name: Christine Ang Student ID: 121559223 Date: October 11, 2024
+*
+********************************************************************************/ 
+
+
 import useSWR from "swr";
 import { useState, useEffect } from "react";
 import { Pagination, Accordion } from "react-bootstrap";
