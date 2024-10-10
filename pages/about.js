@@ -21,11 +21,11 @@ export default function About(props) {
       <Card>
         <Card.Body>
           <p>
-            I am a computer programming student excited to learn new things!{" "}
+            I am a computer programming student excited to learn new things!
           </p>
           <p> When I am not coding, I love to spend time outdoors!</p>
           <p>
-            A place I would love to visit someday is{" "}
+            A place I would love to visit someday is
             <Link href="https://listingsapi-hyam.onrender.com/api/listings/210968">
               Hawaii's North Shore in Oahu.
             </Link>
