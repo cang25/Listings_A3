@@ -19,7 +19,7 @@ export default function Home() {
 
   const previous = () => {
     if (page > 1) {
-      setPage((prevPage) => prevPage - 1);
+      setPage((prevPage) => prevPage - 1); 
     }
   };
 
