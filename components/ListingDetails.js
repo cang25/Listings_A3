@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import Image from "next/image";
 
 export default function ListingDetails(props) {
   const { listing } = props;
@@ -7,19 +8,19 @@ export default function ListingDetails(props) {
     <Container>
       <Row>
         <Col lg>
-          <img
+          <Image>
             onError={(event) => {
               event.target.onerror = null; // Remove the event handler to prevent infinite loop
               event.target.src =
                 "https://placehold.co/600x400?text=Photo+Not+Available";
             }}
-            className="img-fluid w-100"
+            className=&quot;img-fluid w-100&quot;
             src={
               listing.images?.picture_url ||
               "https://placehold.co/600x400?text=Photo+Not+Available"
             }
-            alt="Listing Image"
-          />
+            alt=&quot;Listing Image&quot;
+          </Image>
           <br />
           <br />
         </Col>

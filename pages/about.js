@@ -27,7 +27,7 @@ export default function About(props) {
           <p>
             A place I would love to visit someday is
             <Link href="https://listingsapi-hyam.onrender.com/api/listings/210968">
-              Hawaii's North Shore in Oahu.
+              Hawaii&apos;s North Shore in Oahu.
             </Link>
           </p>
         </Card.Body>
